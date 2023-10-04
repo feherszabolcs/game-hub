@@ -1,12 +1,14 @@
 import './App.css'
-import { ChakraProvider } from '@chakra-ui/react'
+import { Button, ButtonGroup } from '@chakra-ui/react'
 
 function App() {
 
   return (
-    <ChakraProvider>
-
-    </ChakraProvider>
+    <>
+      <Button colorScheme='teal' variant='solid'>
+        Button
+      </Button>
+    </>
   )
 }
 
