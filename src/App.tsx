@@ -4,6 +4,7 @@ import { Button, ButtonGroup, Grid, GridItem, Show } from '@chakra-ui/react'
 
 function App() {
 
+
   return (
     <Grid templateAreas={{
       base: `"nav" "main"`,
