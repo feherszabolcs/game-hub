@@ -23,7 +23,7 @@ const GameGrid = ({ selectedGenre }: Props) => {
                     </CardContainer>))}
                 {isLoading && skeletons.map(s =>
                     <CardContainer key={s}>
-                        <SkeletonCard key={s} />
+                        <SkeletonCard />
                     </CardContainer>)}
             </SimpleGrid>
         </>
